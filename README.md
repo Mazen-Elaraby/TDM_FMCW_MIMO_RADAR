@@ -45,7 +45,7 @@ Time division multiplexing (TDM) is one way to achieve orthogonality among trans
 
 ## Generating MIMO Radar Data Cube
 
-The Radar's Field of View (FOV) has two cars at azimuth of 10 and -10 degrees. The MATLAB Phased Array System Toolbox. 
+The Radar's Field of View (FOV) has two cars at azimuth of 10 and -10 degrees. 
 
 The Radar Data Cube corresponding to the physical array is first simulated and then is used to construct one generated from the virtual array.
 
@@ -54,7 +54,7 @@ The Radar Data Cube corresponding to the physical array is first simulated and t
 ## The Signal Processing Chain
 ### Range-Doppler Processing
 
-The Data Cube is sliced to pick one transmit-receive pair an d a 2D FFT is applied to produce the following range-doppler map:
+The Data Cube is sliced to pick one transmit-receive pair and a 2D FFT is applied to produce the following range-doppler map:
 
 ![untitled2](https://github.com/Mazen-Elaraby/TDM_FMCW_MIMO_RADAR/assets/99294980/f969f635-39e4-4437-95c0-2559ae9478fc)
 
